@@ -1,0 +1,888 @@
+
+pile:
+#tile A
+ #
+  - id: A
+    intersection: true
+    cloister: true
+    pennant: false
+    wallCorners:
+     - false
+     - false
+     - false
+     - false
+    wallSides: [false, false, false, false]
+    fieldSides: [true, true, true, true]
+    roadSides: [false, false, true, false]
+    features:
+     - [1, 0, 1, 2, 3, 4, 5, 6, 7]
+#
+  - id: A
+    intersection: true
+    cloister: true
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true, true, true, true]
+    roadSides: [false, false, true, false]
+    features:
+     - [1, 0, 1, 2, 3, 4, 5, 6, 7]
+##tile B
+#
+  - id: B
+    intersection: false
+    cloister: true
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [1, 0, 1, 2, 3, 4, 5, 6, 7]
+#
+  - id: B
+    intersection: false
+    cloister: true
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [1, 0, 1, 2, 3, 4, 5, 6, 7]
+#
+  - id: B
+    intersection: false
+    cloister: true
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [1, 0, 1, 2, 3, 4, 5, 6, 7]
+#
+  - id: B
+    intersection: false
+    cloister: true
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [1, 0, 1, 2, 3, 4, 5, 6, 7]
+##tile C
+#
+  - id: C
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [false, false, false, false]
+    wallSides: [true, true, true, true]
+    fieldSides: [false, false, false, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 0, 1, 2, 3, 4, 5, 6, 7]
+##tile D (one has to be starting tile)
+#
+  - id: D
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, false]
+    wallSides: [false, true, false, false]
+    fieldSides: [true, false, true, true]
+    roadSides: [true, false, true, false]
+    features:
+     - [0, 2, 3]
+     - [1, 1, 4]
+     - [1, 0, 5, 6, 7]
+#
+  - id: D
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, false]
+    wallSides: [false, true, false, false]
+    fieldSides: [true, false, true, true]
+    roadSides: [true, false, true, false]
+    features:
+     - [0, 2, 3]
+     - [1, 1, 4]
+     - [1, 0, 5, 6, 7]
+#
+  - id: D
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, false]
+    wallSides: [false, true, false, false]
+    fieldSides: [true, false, true, true]
+    roadSides: [true, false, true, false]
+    features:
+     - [0, 2, 3]
+     - [1, 1, 4]
+     - [1, 0, 5, 6, 7]
+
+  - id: D
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, false]
+    wallSides: [false, true, false, false]
+    fieldSides: [true, false, true, true]
+    roadSides: [true, false, true, false]
+    features:
+     - [0, 2, 3]
+     - [1, 1, 4]
+     - [1, 0, 5, 6, 7]
+#  #tile E
+#
+  - id: E
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 0,1]
+     - [1, 2, 3, 4, 5, 6, 7]
+#
+  - id: E
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 0,1]
+     - [1, 2, 3, 4, 5, 6, 7]
+#
+  - id: E
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 0,1]
+     - [1, 2, 3, 4, 5, 6, 7]
+#
+  - id: E
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 0,1]
+     - [1, 2, 3, 4, 5, 6, 7]
+#
+  - id: E
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 0,1]
+     - [1, 2, 3, 4, 5, 6, 7]
+#  #tile F
+#
+  - id: F
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [true, true, true, true]
+    wallSides: [false, true, false, true]
+    fieldSides: [true, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,2,3,6,7]
+     - [1, 0,1]
+     - [1,4,5]
+#
+  - id: F
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [true, true, true, true]
+    wallSides: [false, true, false, true]
+    fieldSides: [true, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,2,3,6,7]
+     - [1, 0,1]
+     - [1,4,5]
+#  #tile G
+#
+  - id: G
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, true, true]
+    wallSides: [true, false, true, false]
+    fieldSides: [false, true, false, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,4,5]
+     - [1,2,3]
+     - [1,6,7]
+# #tile H
+#
+  - id: H
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, true, true]
+    wallSides: [false, true, false, true]
+    fieldSides: [true, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 2,3]
+     - [0,6,7]
+     - [1,0,1,4,5]
+#
+  - id: H
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, true, true]
+    wallSides: [false, true, false, true]
+    fieldSides: [true, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 2,3]
+     - [0,6,7]
+     - [1,0,1,4,5]
+#
+  - id: H
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, true, true]
+    wallSides: [false, true, false, true]
+    fieldSides: [true, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 2,3]
+     - [0,6,7]
+     - [1,0,1,4,5]
+#  #tile I
+#
+  - id: I
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, true]
+    wallSides: [false, true, true, false]
+    fieldSides: [true, false, false, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 2,3]
+     - [0,4,5]
+     - [1,0,1,6,7]
+#
+  - id: I
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, true]
+    wallSides: [false, true, true, false]
+    fieldSides: [true, false, false, true]
+    roadSides: [false, false, false, false]
+    features:
+     - [0, 2,3]
+     - [0,4,5]
+     - [1,0,1,6,7]
+#
+# #tile J
+#
+  - id: J
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1]
+     - [1,2,5,6,7]
+     - [1,3,4]
+#
+  - id: J
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1]
+     - [1,2,5,6,7]
+     - [1,3,4]
+  - id: J
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1]
+     - [1,2,5,6,7]
+     - [1,3,4]
+# #tile K
+#
+  - id: K
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, true, true]
+    features:
+     - [0,0,1]
+     - [1,2,3,4,7]
+     - [1,5,6]
+  - id: K
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, true, true]
+    features:
+     - [0,0,1]
+     - [1,2,3,4,7]
+     - [1,5,6]
+  - id: K
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [true, true, false, false]
+    wallSides: [true, false, false, false]
+    fieldSides: [false, true, true, true]
+    roadSides: [false, false, true, true]
+    features:
+     - [0,0,1]
+     - [1,2,3,4,7]
+     - [1,5,6]
+# #Tile L
+#
+  - id: L
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, false]
+    wallSides: [false, true, false, false]
+    fieldSides: [true, false, true, true]
+    roadSides: [true, false, true, true]
+    features:
+     - [0,2,3]
+     - [1,0,7]
+     - [1,6,5]
+     - [1,1,4]
+#
+  - id: L
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, false]
+    wallSides: [false, true, false, false]
+    fieldSides: [true, false, true, true]
+    roadSides: [true, false, true, true]
+    features:
+     - [0,2,3]
+     - [1,0,7]
+     - [1,6,5]
+     - [1,1,4]
+#
+  - id: L
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, true, false]
+    wallSides: [false, true, false, false]
+    fieldSides: [true, false, true, true]
+    roadSides: [true, false, true, true]
+    features:
+     - [0,2,3]
+     - [1,0,7]
+     - [1,6,5]
+     - [1,1,4]
+# #tile M
+#
+  - id: M
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,3,4,5]
+  - id: M
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,3,4,5]
+# #tile N
+#
+  - id: N
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,3,4,5]
+#
+  - id: N
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,3,4,5]
+  - id: N
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,3,4,5]
+# #tile O
+#
+  - id: O
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,5]
+     - [1,3,4]
+  - id: O
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,5]
+     - [1,3,4]
+#tile P
+  - id: P
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,5]
+     - [1,3,4]
+  - id: P
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,5]
+     - [1,3,4]
+  - id: P
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, true, false, true]
+    wallSides: [true, false, false, true]
+    fieldSides: [false, true, true, false]
+    roadSides: [false, true, true, false]
+    features:
+     - [0,0,1,6,7]
+     - [1,2,5]
+     - [1,3,4]
+#tile Q
+  - id: Q
+    intersection: false
+    cloister: false
+    pennant: true
+    wallCorners: [false, false, true, true]
+    wallSides: [true, true, false, true]
+    fieldSides: [false, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,2,3,6,7]
+     - [1,4,5]
+#tile R
+  - id: R
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, true, true]
+    wallSides: [true, true, false, true]
+    fieldSides: [false, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,2,3,6,7]
+     - [1,4,5]
+  - id: R
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, true, true]
+    wallSides: [true, true, false, true]
+    fieldSides: [false, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,2,3,6,7]
+     - [1,4,5]
+  - id: R
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, true, true]
+    wallSides: [true, true, false, true]
+    fieldSides: [false, false, true, false]
+    roadSides: [false, false, false, false]
+    features:
+     - [0,0,1,2,3,6,7]
+     - [1,4,5]
+#tile S
+  - id: S
+    intersection: true
+    cloister: false
+    pennant: true
+    wallCorners: [false, false, true, true]
+    wallSides: [true, true, false, true]
+    fieldSides: [false, false, true, false]
+    roadSides: [false, false, true, false]
+    features:
+     - [0,0,1,2,3,6,7]
+     - [1,4]
+     - [1,5]
+  - id: S
+    intersection: true
+    cloister: false
+    pennant: true
+    wallCorners: [false, false, true, true]
+    wallSides: [true, true, false, true]
+    fieldSides: [false, false, true, false]
+    roadSides: [false, false, true, false]
+    features:
+     - [0,0,1,2,3,6,7]
+     - [1,4]
+     - [1,5]
+#tile T
+  - id: T
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, true, true]
+    wallSides: [true, true, false, true]
+    fieldSides: [false, false, true, false]
+    roadSides: [false, false, true, false]
+    features:
+     - [0,0,1,2,3,6,7]
+     - [1,4]
+     - [1,5]
+#tile U
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+  - id: U
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, false, true, false]
+    features:
+     - [1,1,2,3,4]
+     - [1,5,6,7,0]
+#tile V
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+  - id: V
+    intersection: false
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, false, true, true]
+    features:
+     - [1,7,0,1,2,3,4]
+     - [1,5,6]
+#tile W
+  - id: W
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, true, true, true]
+    features:
+     - [1,7,0,1,2]
+     - [1,3,4]
+     - [1,5,6]
+  - id: W
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, true, true, true]
+    features:
+     - [1,7,0,1,2]
+     - [1,3,4]
+     - [1,5,6]
+  - id: W
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, true, true, true]
+    features:
+     - [1,7,0,1,2]
+     - [1,3,4]
+     - [1,5,6]
+  - id: W
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [false, true, true, true]
+    features:
+     - [1,7,0,1,2]
+     - [1,3,4]
+     - [1,5,6]
+#tile X
+  - id: X
+    intersection: true
+    cloister: false
+    pennant: false
+    wallCorners: [false, false, false, false]
+    wallSides: [false, false, false, false]
+    fieldSides: [true,true,true,true]
+    roadSides: [true, true, true, true]
+    features:
+     - [1,7,0]
+     - [1,1,2]
+     - [1,3,4]
+     - [1,5,6]
